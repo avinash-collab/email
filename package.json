@@ -1,0 +1,20 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^3.17.0",
+    "@azure/msal-node": "^2.9.2"
+  }
+}
